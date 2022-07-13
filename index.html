@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Stopwatches for experiments</title>
+  </head>
+
+  <body>
+    <!-- BOX ONE TITLE  -->
+    <div class="boxTitle">Caja Nº 1</div>
+    <!-- BOX ONE CONTAINER -->
+    <div class="container">
+      <!-- STOPWATCH 1 -->
+      <div class="sample">
+        <div class="title">Individuo # 1</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_1">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_1"></div>
+            <div class="paused" id="play-pause_1"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-1"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-1"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-1"
+            type="button"
+            value="Fin del Experimento"
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 1</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s1">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s1">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s1">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- STOPWATCH 2 -->
+
+      <div class="sample">
+        <div class="title">Individuo # 2</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_2">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_2"></div>
+            <div class="paused" id="play-pause_2"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-2"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-2"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-2"
+            type="button"
+            value="Fin del Experimento"
+            control-
+            s
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 2</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s2">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s2">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s2">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- STOPWATCH 3 -->
+
+      <div class="sample">
+        <div class="title">Individuo # 3</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_3">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_3"></div>
+            <div class="paused" id="play-pause_3"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-3"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-3"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-3"
+            type="button"
+            value="Fin del Experimento"
+            control-
+            s
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 3</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s3">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s3">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s3">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- FINAL PRINCIPAL CONTAINER BOX 1 -->
+    </div>
+
+    <!-- BOX TWO TITLE  -->
+    <div class="boxTitle">Caja Nº 2</div>
+    <!-- BOX TWO CONTAINER -->
+    <div class="container">
+      <!-- STOPWATCH 4 -->
+      <div class="sample">
+        <div class="title">Individuo # 1</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_4">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_4"></div>
+            <div class="paused" id="play-pause_4"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-4"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-4"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-4"
+            type="button"
+            value="Fin del Experimento"
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 1</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s4">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s4">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s4">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- STOPWATCH 5 -->
+
+      <div class="sample">
+        <div class="title">Individuo # 2</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_5">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_5"></div>
+            <div class="paused" id="play-pause_5"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-5"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-5"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-5"
+            type="button"
+            value="Fin del Experimento"
+            control-
+            s
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 2</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s5">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s5">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s5">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- STOPWATCH 6 -->
+
+      <div class="sample">
+        <div class="title">Individuo # 3</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_6">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_6"></div>
+            <div class="paused" id="play-pause_6"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-6"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-6"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-6"
+            type="button"
+            value="Fin del Experimento"
+            control-
+            s
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 3</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s6">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s6">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s6">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- FINAL PRINCIPAL CONTAINER BOX 2 -->
+    </div>
+
+    <!-- BOX THREE TITLE  -->
+    <div class="boxTitle">Caja Nº 3</div>
+    <!-- BOX THREE CONTAINER -->
+    <div class="container">
+      <!-- STOPWATCH 7 -->
+      <div class="sample">
+        <div class="title">Individuo # 1</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_7">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_7"></div>
+            <div class="paused" id="play-pause_7"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-7"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-7"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-7"
+            type="button"
+            value="Fin del Experimento"
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 1</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s7">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s7">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s7">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- STOPWATCH 8 -->
+
+      <div class="sample">
+        <div class="title">Individuo # 2</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_8">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_8"></div>
+            <div class="paused" id="play-pause_8"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-8"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-8"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-8"
+            type="button"
+            value="Fin del Experimento"
+            control-
+            s
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 2</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s8">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s8">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s8">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- STOPWATCH 9 -->
+
+      <div class="sample">
+        <div class="title">Individuo # 3</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_9">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_9"></div>
+            <div class="paused" id="play-pause_9"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-9"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-9"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-9"
+            type="button"
+            value="Fin del Experimento"
+            control-
+            s
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 3</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s9">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s9">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s9">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- FINAL PRINCIPAL CONTAINER BOX 3 -->
+    </div>
+
+    <!-- BOX FOUR TITLE  -->
+    <div class="boxTitle">Caja Nº 4</div>
+    <!-- BOX FOUR CONTAINER -->
+    <div class="container">
+      <!-- STOPWATCH 10 -->
+      <div class="sample">
+        <div class="title">Individuo # 1</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_10">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_10"></div>
+            <div class="paused" id="play-pause_10"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-10"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-10"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-10"
+            type="button"
+            value="Fin del Experimento"
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 1</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s10">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s10">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s10">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- STOPWATCH 11 -->
+
+      <div class="sample">
+        <div class="title">Individuo # 2</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_11">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_11"></div>
+            <div class="paused" id="play-pause_11"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-11"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-11"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-11"
+            type="button"
+            value="Fin del Experimento"
+            control-
+            s
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 2</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s11">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s11">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s11">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- STOPWATCH 12 -->
+
+      <div class="sample">
+        <div class="title">Individuo # 3</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_12">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_12"></div>
+            <div class="paused" id="play-pause_12"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-12"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-12"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-12"
+            type="button"
+            value="Fin del Experimento"
+            control-
+            s
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 3</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s12">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s12">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s12">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- FINAL PRINCIPAL CONTAINER BOX 4 -->
+    </div>
+
+    <!-- BOX FIVE TITLE  -->
+    <div class="boxTitle">Caja Nº 5</div>
+    <!-- BOX FIVE CONTAINER -->
+    <div class="container">
+      <!-- STOPWATCH 13 -->
+      <div class="sample">
+        <div class="title">Individuo # 1</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_13">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_13"></div>
+            <div class="paused" id="play-pause_13"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-13"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-13"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-13"
+            type="button"
+            value="Fin del Experimento"
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 1</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s13">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s13">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s13">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- STOPWATCH 14 -->
+
+      <div class="sample">
+        <div class="title">Individuo # 2</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_14">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_14"></div>
+            <div class="paused" id="play-pause_14"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-14"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-14"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-14"
+            type="button"
+            value="Fin del Experimento"
+            control-
+            s
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 2</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s14">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s14">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s14">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- STOPWATCH 15 -->
+
+      <div class="sample">
+        <div class="title">Individuo # 3</div>
+        <div class="circle">
+          <div class="stopwatch" id="stopwatch_15">00:00</div>
+          <div class="stopwatch-buttons">
+            <div class="stop" id="stop_15"></div>
+            <div class="paused" id="play-pause_15"></div>
+          </div>
+        </div>
+
+        <div class="results">
+          <input
+            class="control-buttons"
+            id="conv-start-15"
+            type="button"
+            value="Inicio de Convulsión"
+          />
+          <input
+            class="control-buttons"
+            id="conv-end-15"
+            type="button"
+            value="Fin de Convulsión"
+          />
+          <!-- <input
+            class="control-buttons"
+            id="exp-end-15"
+            type="button"
+            value="Fin del Experimento"
+            control-
+            s
+          /> -->
+        </div>
+
+        <table>
+          <thead>
+            <tr class="row-header">
+              <th>Individuo # 3</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="row-1" id="row-1_s15">
+              <td>Inicio de Convulsión</td>
+            </tr>
+            <tr class="row-2" id="row-2_s15">
+              <td>Fin de Convulsión</td>
+            </tr>
+            <!-- <tr class="row-3" id="row-3_s15">
+              <td>Fin del Experimento</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- FINAL PRINCIPAL CONTAINER BOX 5 -->
+    </div>
+  </body>
+</html>
